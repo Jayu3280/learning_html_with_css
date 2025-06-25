@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hover_effect:hover{
+            color: red;
+            background-color: yellow;
+            font-size: 80;
+            text-shadow: 4px 3px 8px green;
+        }
+        .hover_effect{
+            color: blueviolet;
+        }
+        button{
+            background-color: green;
+            font-size: 20px;
+            padding: 10px;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        button:active{
+            background-color: blue;
+            font-size: 30px;
+            padding: 20px;
+            color: white;
+            border-radius: 20px;
+          
+        }
+
+        a:visited{
+            color: green;
+        }
+        input:focus{
+            background-color: yellow;
+        }
+        ul{
+            width: 300px;
+            padding: 10px;
+            
+
+        }
+        li{
+            padding: 10px;
+            border:2px solid red;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+         li:nth-child(odd){
+            background-color: aquamarine;
+         }
+         li:nth-child(even){
+            background-color: lightpink;
+         }
+         li:nth-child(5){
+            background-color: black;
+            color: white;
+         }
+          input[type="text"]{
+            border: 8px solid red;
+          }
+          input[placeholder]{
+            background-color: black;
+            color: wheat;
+          }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Enter Name">
+    <!-- ul>li*10{items $} -->
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+        <li>item 8</li>
+        <li>item 9</li>
+        <li>item 10</li>
+    </ul>
+
+    <h1 class="hover_effect">Hello welocme  Jayant & Gajanan</h1>
+    <button>Click me</button> <br><br>
+    <a href="https://www.youtube.com/">Click Here</a>
+    <input type="text"  placeholder="Enter name">
+
+    
+</body>
+</html>
