@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100%;
+            height: auto;
+            background-color: green;
+            color: white;
+            text-align: center;
+            line-height: 200px;
+            font-size: 24px;
+            margin: 20px auto;
+            border: 2px solid red;
+            border-radius: 20px;
+        }
+        .info{
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: rgb(185, 236, 236);
+            color: black;
+            font-size: 18px;
+            border-left: 6px solid gray;
+            margin-bottom: 20px;
+        }
+        .responsive-image{
+            width: 100%;
+            max-width: 600px;
+            border: 4px solid red;
+            padding: 30px;
+            margin: auto;
+        }
+        /* Mobile view 480px or less */
+        @media(max-width:480px){
+            .box{
+                background-color: blue;
+                font-size: 10px;
+                width: 80%;
+
+            }
+            .info{
+                background-color: rgb(227, 87, 27);
+                color: white;
+
+            }
+            .responsive-image{
+                  display: none;
+            }
+            h2{
+                color: white;
+
+            }
+        }
+        /* mobile view 480px or less */
+        @media(max-width:768px){
+            .box{
+                background-color: rgb(96,95,19);
+                font-size: 100px;
+                width: 100%;
+            }
+            .info{
+
+
+            }
+        }
+        @media(min-width:800px) and (max-width:900px){
+            .box{
+                background-color: rgb(212, 223, 16);
+                font-size: 100px;
+                width: 100%;
+            }
+            .info{
+                background-color: rgb(17, 220, 78);
+                color: white;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">Resposive Box </div>
+
+    <div class="info">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat cumque a delectus molestiae voluptatibus veritatis inventore, qui praesentium atque consequuntur voluptatem harum, animi dolorem asperiores. Inventore molestiae voluptates facilis cupiditate!</p>
+
+       
+    </div>
+     <img src="/images/Flower.jpg" alt="image" class="responsive-image">
+    
+</body>
+</html>
